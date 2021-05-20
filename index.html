@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LED Loading Effect In HTML/CSS</title>
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <style type="text/css">
+      body{
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      }
+      section{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
+      margin-top: 50px;
+      }
+      div{
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      border:20px solid;
+      animation: 1.5s loder infinite;
+      margin: 20px;
+      }
+      .success{
+      border-color:#00ff87 #bdc3c7;
+      }
+      .danger{
+      border-color:#c23616 #bdc3c7;
+      }
+      .primary{
+      border-color:#0097e6 #bdc3c7;
+      }
+      .secondnry{
+      border-color:#dcdde1 #bdc3c7;
+      }
+      .warning{
+      border-color:#00ff87 #bdc3c7;
+      }
+      .dark{
+      border-color:#2f3640 #bdc3c7;
+      }
+      .warm{
+      border-color:#ff3f34 #bdc3c7;
+      }
+      .indigo{
+      border-color:#3c40c6 #bdc3c7;
+      }
+      .permium{
+      border-color:#ffa801 #bdc3c7;
+      }
+      .gold{
+      border-color:#f1c40f #bdc3c7;
+      }
+      @keyframes loder{
+      to{
+      transform: rotate(360deg);
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="success"></div>
+      <div class="danger"></div>
+      <div class="primary"></div>
+      <div class="secondnry"></div>
+      <div class="warning"></div>
+      <div class="dark"></div>
+      <div class="warm"></div>
+      <div class="indigo"></div>
+      <div class="permium"></div>
+      <div class="gold"></div>
+    </section>
+  </body>
+</html>
